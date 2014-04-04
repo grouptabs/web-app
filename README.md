@@ -1,3 +1,5 @@
+## Development setup
+
 To use it you need the [Dojo Toolkit](http://dojotoolkit.org/) 1.9 (for debugging or creating an optimized build use the source distribution).
 
 You can use bower to install the Dojo packages.
@@ -25,3 +27,9 @@ To do a build run
     ./build.sh
 
 You need [Node.js](http://nodejs.org/) for that and the `util` package (not available via bower). Then you can use `index.html`.
+
+
+## Server
+
+Use ```node webserver``` to start a server.
+Go to http://localhost:8080/index.dev.html to try Grouptabs.
